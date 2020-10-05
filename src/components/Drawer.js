@@ -71,8 +71,8 @@ const Drawer = (props) => {
             <h1>
               <Button icon="menu" look="flat" onClick={toggleDrawer} />
               <span className="title">
-                <span role="img" aria-label="">🎲</span> 
-                DevReach Casino 
+                <span role="img" aria-label="">🎲</span>
+                DevReach Casino
                 <span role="img" aria-label="">🎰</span>
               </span>
               <Avatar shape="rounded" type="image">

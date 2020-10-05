@@ -20,6 +20,10 @@ h1 {
 h1 .k-avatar {
   align-self: flex-end;
 }
+.title span {
+  display: inline-block;
+  padding: 0 10px;
+}
 h1 span {
   align-self: center;
 }
