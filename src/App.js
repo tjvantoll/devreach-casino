@@ -1,25 +1,52 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Drawer from './components/Drawer';
+import Home from './components/Home';
+import RyanChenkie from './components/RyanChenkie';
+import AmalHussein from './components/AmalHussein';
+import MichaelLabriola from './components/MichaelLabriola';
+import CherScarlett from './components/CherScarlett';
+import NaderDabit from './components/NaderDabit';
+import TannerLinsley from './components/TannerLinsley';
+import MichaelChan from './components/MichaelChan';
+
+import '@progress/kendo-theme-material/dist/all.css';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Drawer>
+        <div className="page-container">
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/ryan-chenkie">
+              <RyanChenkie />
+            </Route>
+            <Route path="/amal-hussein">
+              <AmalHussein />
+            </Route>
+            <Route path="/michael-labriola">
+              <MichaelLabriola />
+            </Route>
+            <Route path="/cher-scarlett">
+              <CherScarlett />
+            </Route>
+            <Route path="/nader-dabit">
+              <NaderDabit />
+            </Route>
+            <Route path="/tanner-linsley">
+              <TannerLinsley />
+            </Route>
+            <Route path="/michael-chan">
+              <MichaelChan />
+            </Route>
+          </Switch>
+        </div>
+      </Drawer>
+    </Router>
   );
 }
 
