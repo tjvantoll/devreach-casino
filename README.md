@@ -1,4 +1,4 @@
-# DevReach Casino
+# 🎲 DevReach Casino 🎰
 
 Repo for React Day at DevReach. Learn more about DevReach and the speakers at [telerik.com/devreach/online](https://www.telerik.com/devreach/online/agenda-tuesday#sessions).
 
