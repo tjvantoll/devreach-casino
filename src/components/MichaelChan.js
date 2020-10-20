@@ -1,9 +1,15 @@
 import React from "react";
 
-// import Demo from "./texas-holdem";
+// Michael Chan
+// Social: @chantastic
+// Podcast: reactpodcast.com
+// Discord: https://discord.gg/q9ZdBgP
+// Demo at: http://localhost:3000/michael-chan
+
+import Demo from "./texas-holdem";
 
 function MichaelChan() {
-  return <div />;
+  return <Demo />;
 }
 
 export default MichaelChan;
