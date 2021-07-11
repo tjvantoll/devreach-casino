@@ -75,9 +75,7 @@ const Drawer = (props) => {
                 DevReach Casino
                 <span role="img" aria-label="">🎰</span>
               </span>
-              <Avatar shape="rounded" type="image">
-                <img alt="Profile" src={getAvatarImage()} />
-              </Avatar>
+              
             </h1>
           </div>
           {props.children}
